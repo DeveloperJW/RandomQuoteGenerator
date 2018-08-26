@@ -127,7 +127,7 @@ function startCount() {
     c = c + 1;
     t = setTimeout(startCount, 1000);
     // if the inactive time is over 20 seconds, we call the printQuote() function to print a new quote
-    if (c > 3){
+    if (c > 20){
         printQuote();
     }
 }
