@@ -6,8 +6,26 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+header {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 10px;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
 #quote-box {
-  position: absolute;
+  /*position: absolute;*/
+  position: relative;
   top: 20%;
   left: 10%;
   right: 10%;
