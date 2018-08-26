@@ -2,6 +2,9 @@
 This project is created for the purpose of Treehouse Full Stack JavaScript TechDegree Unit 01.
 The webpage will display a random quote to the page.
 
+The project can be viewed at: https://developerjw.github.io/RandomQuoteGenerator/
+
+
 #Extra Credit:
 
 #1: Added img and link property to quotes array
