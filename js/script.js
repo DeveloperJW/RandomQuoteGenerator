@@ -111,7 +111,10 @@ const printQuote= ()=>{
     document.getElementById('quote-box').innerHTML = stringOfQuoteProperties;
     // change the background color of body when user click the button
     // a random color will be selected from bg_color array and assign to the body of index.html
-    document.querySelector('body').style.backgroundColor = getRandomQuote(bg_color);
+    const selectedBgColor= getRandomQuote(bg_color);
+    document.querySelector('body').style.backgroundColor = selectedBgColor;
+    // the background color of the button also changes according to the background color
+    document.querySelector('#loadQuote').style.backgroundColor= selectedBgColor;
     //auto refresh the quote after 20 seconds
     // each time when user click the button, we need to reset the c to 0 and stop the last count to avoid duplication
     // then we start to count
